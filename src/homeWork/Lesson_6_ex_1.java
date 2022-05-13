@@ -6,17 +6,17 @@ public class Lesson_6_ex_1 {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int h = scanner.nextInt();
 
-
-            /*int sleepLess = scanner.nextInt();
-            int sleepMore = scanner.nextInt();
-            int sleepReal = scanner.nextInt();*/
-
-           /* if (sleepLess <= sleepMore) {
+            if (h >= a && h <=b) {
+                System.out.println("Norm");
+            }else if (h < a) {
                 System.out.println("Deficiency");
-            }else if (sleepMore > sleepLess) {
-                System.out.println("No");
-            }*/
+            }else {
+                System.out.println("Excess");
+            }
 
 
        /* String result = "No";
